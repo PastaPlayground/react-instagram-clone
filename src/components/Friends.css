@@ -1,0 +1,14 @@
+.friends {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    height: 90px;
+    font-size: 12px;
+    margin-left: 40px;
+}
+
+.profilePic {
+    width: 50px !important;
+    height: 50px !important;
+}

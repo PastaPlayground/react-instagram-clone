@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 15px;
+    border-bottom: 1px solid #acacac;
+    background-color: #fafafa;
+}
+
+.logo {
+    height: 30px;
+    margin-left: 10%;
+}
+
+.header_search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    border: 1px solid #acacac;
+    border-radius: 5px;;
+    width: 200px;
+    height: 30px;
+    color: #acacac;
+    background-color: #f1f1f1;
+}
+
+label .searchIcon {
+    width: 16px;
+    margin-right: 5px;
+}
+
+.header_right {
+    width: 250px;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
