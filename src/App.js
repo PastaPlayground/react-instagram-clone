@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/Header.js'
 import Stories from './components/Stories.js'
+import Feed from './components/Feed.js'
 
 function App() {
   return (
@@ -8,6 +9,8 @@ function App() {
         <Header />
 
         <Stories />
+
+        <Feed />
 
     </div>
   );
