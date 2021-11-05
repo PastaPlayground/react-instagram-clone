@@ -1,5 +1,5 @@
 .post {
-    width: 40vw;
+    width: 45vw;
     height: 110vh;
     border: 1px solid black;
 }
@@ -20,10 +20,27 @@
 .username {
     font-weight: bold;
     width: 90%;
+    margin-left: 10px;
 }
 
 .post img {
     width: 100%;
-    height: 90%;
+    height: 70%;
     border: 1px solid black;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons-left {
+    width: 25%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons-right {
+    position: relative;
+    margin-left: 65%;
 }
