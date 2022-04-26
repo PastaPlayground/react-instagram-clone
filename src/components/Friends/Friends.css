@@ -1,11 +1,9 @@
 .friends {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     flex-direction: column;
-    height: 90px;
+    height: 80px;
     font-size: 12px;
-    margin-left: 40px;
 }
 
 .profilePic {
