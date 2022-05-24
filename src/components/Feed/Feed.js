@@ -1,6 +1,7 @@
 import React from "react";
 import "./Feed.css";
 import Post from "../Post/Post";
+import Message from "../Message/Message";
 
 function Feed() {
   return (
@@ -11,7 +12,10 @@ function Feed() {
         location="Singapore"
         caption="Wonderful day at the beach with my friends"
         timestamp="30 mins ago"
+        likes="10"
       />
+
+      <Message />
     </div>
   );
 }

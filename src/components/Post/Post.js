@@ -42,7 +42,7 @@ function Post({
         </div>
 
         <div className="comment">
-          <Avatar fontSize="10px"/>
+          <Avatar fontSize="10px" />
           <p>Add a comment</p>
         </div>
         <div className="timestamp">
